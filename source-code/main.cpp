@@ -1,38 +1,20 @@
 #include <iostream>
-#include <string>
 using namespace std;
+int main()
+{
+//DEKLARASI
+  float L,p,l;
+//INPUT`
+  cout << "masukkan nilai panjang: ";
+  cin >> p;
 
-// ========================================
-// TUGAS INFORMATIKA KELAS XII
-// IMPLEMENTASI ALGORITMA DALAM C++
-// ========================================
+  cout <<"masukkan nilai lebar: ";
+  cin >> l;
+//PROSES
+L = p * l;
+//OUTPUT
+  cout << "tampilkan hasil luas: " << L << endl;
 
-// Nama Lengkap :
-// Kelas        :
-// Nomor Absen  :
-// Judul Program:
-
-int main() {
-
-    // 1. DEKLARASI VARIABEL
-    // Deklarasikan variabel yang diperlukan.
-
-
-    // 2. INPUT
-    // Tuliskan perintah untuk menerima data
-    // dari pengguna menggunakan cin atau getline.
-
-
-    // 3. PROSES
-    // Tuliskan proses atau perhitungan program.
-    // Gunakan IF-ELSE jika diperlukan.
-    // Gunakan FOR atau WHILE jika diperlukan.
-
-
-    // 4. OUTPUT
-    // Tuliskan perintah untuk menampilkan hasil
-    // menggunakan cout.
-
-
-    return 0;
+  return 0;
 }
+   
